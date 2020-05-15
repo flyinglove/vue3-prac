@@ -1,24 +1,26 @@
-# vue3-elem
+找不到合适的项目练手， 这个项目挺完整的， 而且结构清晰， 正好vue3.0即将发布， 
+所以决定用vue3.0相关技术栈， 沿袭原作者的提交记录， 重新开发一下这个系统
 
-## Project setup
-```
-yarn install
-```
+基于 vue2 + vue-rotuer + vuex + webpack + ES6 + fetch + less + http-proxy-middleware反向代理 重写 饿了么 webapp
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
 
-### Compiles and minifies for production
-```
-yarn build
-```
+### 目标功能
 
-### Lints and fixes files
-```
-yarn lint
-```
+- [ ] 定位功能
+- [ ] 选择城市
+- [ ] 根据输入地址，搜索附近餐馆
+- [ ] 附近商家列表展示
+- [ ] 根据距离、销量、评分、特色菜等进行排序和筛选
+- [ ] 单个餐馆的详细信息展示，商品列表，优惠活动
+- [ ] 餐馆及单个商品的评价列表展示、筛选
+- [ ] 购物车功能
+- [ ] 登陆
+- [ ] 注册
+- [ ] 个人中心
+- [ ] 帐户信息
+- [ ] 服务中心
+- [ ] 订单列表
+- [ ] 正常下单
+- [ ] 付款(写着玩，不当真)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+说明：因为并不是elm官方，所以预计最多只能做到下单这一步，下单成功后可以在手机客户端查看并付款。最关键的点在于登陆功能的实现。
